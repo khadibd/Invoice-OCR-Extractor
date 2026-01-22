@@ -9,8 +9,8 @@ from src.export import Exporter
 
 def main():
     # 📂 Paths
-    pdf_folder = r"C:\Users\khadi\Desktop\Git_share\invoice_ocr_extractor\data\input"
-    output_file = r"C:\Users\khadi\Desktop\Git_share\invoice_ocr_extractor\data\output\all_invoice_output.xlsx"
+    pdf_folder = r"C:\Users\invoice_ocr_extractor\data\input"
+    output_file = r"C:\Users\invoice_ocr_extractor\data\output\all_invoice_output.xlsx"
 
     # 📄 Load all PDFs (name + images)
     documents = load_document(pdf_folder)
