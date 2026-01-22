@@ -18,7 +18,7 @@ def load_document(input_folder):
             images = convert_from_path(
                 file_path,
                 dpi=300,
-                poppler_path=r"C:\Users\khadi\Downloads\Release-25.12.0-0\poppler-25.12.0\Library\bin"
+                poppler_path=r"C:\Users\poppler-25.12.0\Library\bin"
             )
             documents.append((file, images))
 
