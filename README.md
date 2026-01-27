@@ -193,6 +193,6 @@ For any queries, reach out to:
 
 GitHub: @khadibd
 
-Email:  khadijabouadi00@gmail.com 
+Email:  khadibd00@gmail.com 
 
 
