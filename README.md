@@ -10,27 +10,23 @@ A Python-based OCR invoice extractor that automatically reads invoices from a si
 
 ---
 
+## 🚀 Features
 
+- Supports PDF and image formats (JPG, PNG, TIFF, BMP)
 
-\## 🚀 Features
+- Automatic conversion of PDFs to images using Poppler
 
+- OCR using EasyOCR
 
+- Extracts invoice fields (supplier, date, total, etc.)
 
-\- Supports \*\*PDF and image formats\*\* (JPG, PNG, TIFF, BMP)
+- Extracts line items (description, quantity, price, etc.)
 
-\- Automatic conversion of PDFs to images using \*\*Poppler\*\*
+- Exports results to Excel with formatted borders
 
-\- OCR using \*\*EasyOCR\*\*
+- Works with multiple invoices at once
 
-\- Extracts invoice fields (supplier, date, total, etc.)
-
-\- Extracts line items (description, quantity, price, etc.)
-
-\- Exports results to Excel with \*\*formatted borders\*\*
-
-\- Works with \*\*multiple invoices at once\*\*
-
-\- Adds \*\*invoice file name\*\* for traceability
+- Adds invoice file name for traceability
 
 
 
@@ -38,9 +34,9 @@ A Python-based OCR invoice extractor that automatically reads invoices from a si
 
 
 
-\## 🗂️ Folder Structure
+## 🗂️ Folder Structure
 
-
+```bash
 Invoice-ocr-extractor/
 │
 ├── data/
@@ -59,6 +55,7 @@ Invoice-ocr-extractor/
 ├── main.py # Main program
 └── README.md # Project documentation
 
+```
 
 <img width="1536" height="1024" alt="Invoice OCR extraction process overview" src="https://github.com/user-attachments/assets/0faeeca1-a820-4bf2-b331-efea3abb8ce3" />
 
@@ -182,12 +179,12 @@ If you want to add features or improve extraction accuracy, feel free to open an
 
 ---
 
-👩‍💻 Author
+### 👩‍💻 Author
 
 Eng. Khadija Bouadi
 
 
-📧 Contact
+### 📧 Contact
 
 For any queries, reach out to:
 
